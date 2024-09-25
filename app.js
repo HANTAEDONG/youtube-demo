@@ -10,6 +10,6 @@ const userRouter = require("./routes/users");
 const channelRouter = require("./routes/channels");
 
 app.use("/", userRouter);
-app.use("/channel", channelRouter);
+app.use("/channels", channelRouter);
 const maraidb = require("./mariadb");
 maraidb.connect();
